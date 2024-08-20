@@ -1,16 +1,16 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 struct PackageMetadata {
-    static let version: String = "4.8.2"
-    static let checksum: String = "ff2836fbd0fa6eae5d886afd0729570a769874cde0f68c5e19331b5c74a190f8"
+    static let version: String = "4.8.3"
+    static let checksum: String = "a56795f21b3b51208a5185c0a007af5ba43bd861550b27debf179de25c8168cc"
 }
 
 let package = Package(
     name: "ChromeCastSPM",
-    platforms: [.iOS(.v15), .macOS(.v13)],
+    platforms: [.iOS(.v16), .macOS(.v13)],
     products: [
         .library(
             name: "ChromeCastSPM",
